@@ -2,8 +2,10 @@
   "name": "platzom_fercho",
   "version": "0.1.0",
   "description": "Traductor de idioma platzom",
-  "main": "index.js",
+  "main": "dist/src/platzom.js",
   "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
     "javascript"
   ],
   "author": "Fernando Espinoza <developfer@gmail.com> (https://github.com/Fercho191)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "chai": "^4.0.0",
+    "mocha": "^3.4.2"
+  }
 }
