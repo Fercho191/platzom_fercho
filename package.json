@@ -1,0 +1,19 @@
+{
+  "name": "platzom_fercho",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzom",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fercho191/platzom_fercho.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "javascript"
+  ],
+  "author": "Fernando Espinoza <developfer@gmail.com> (https://github.com/Fercho191)",
+  "license": "MIT"
+}
