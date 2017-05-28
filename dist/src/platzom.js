@@ -3,8 +3,8 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = platzom_fercho;
-function platzom_fercho(str) {
+exports.default = platzom;
+function platzom(str) {
   var translation = str;
 
   // Si la palabra termina con "ar", se le quitan esas dos letras

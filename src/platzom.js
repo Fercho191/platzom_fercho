@@ -1,5 +1,5 @@
 
-export default function platzom_fercho(str) {
+export default function platzom(str) {
   var translation = str;
 
   // Si la palabra termina con "ar", se le quitan esas dos letras
